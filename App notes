@@ -1,0 +1,89 @@
+🧩 Title Slide
+
+Title:
+Image Denoising App for KYC & Fraud Prevention
+Subtitle: Enhancing Image Quality for Reliable Decision Making
+Presented by: [Your Name], Fraud Analytics Manager
+
+
+---
+
+📌 Slide 1: Problem Statement
+
+Title: Why Do We Need Image Denoising?
+
+Points:
+
+Poor-quality images are submitted during KYC or authentication (e.g., ID cards, forms).
+
+Noisy images increase manual intervention, rejection rates, and fraud risk.
+
+Visual noise can impact OCR, facial recognition, and document verification.
+
+
+
+---
+
+💡 Slide 2: Proposed Solution
+
+Title: Streamlit-Based Image Denoising App
+
+Points:
+
+Built using Python, OpenCV, Streamlit.
+
+Uses classical image processing to denoise images on the fly.
+
+Helps automate image enhancement at low cost, low latency, and zero ML model training.
+
+
+
+---
+
+⚙️ Slide 3: How It Works
+
+Title: App Workflow
+
+Flowchart or Bullet:
+
+1. User uploads noisy image (JPEG/PNG).
+
+
+2. Image is denoised using OpenCV’s fastNlMeansDenoisingColored().
+
+
+3. Denoised output shown with:
+
+Execution time
+
+PSNR (Peak Signal-to-Noise Ratio)
+
+SSIM (Structural Similarity Index)
+
+
+
+4. Option to download clean image.
+
+
+
+
+---
+
+📊 Slide 4: Sample Results
+
+Title: Visual Before & After
+
+Split image layout:
+
+Left: Noisy Image
+
+Right: Denoised Output
+
+
+Below:
+
+PSNR: 28.4
+
+SSIM: 0.91
+
+Time: 0.42 sec
